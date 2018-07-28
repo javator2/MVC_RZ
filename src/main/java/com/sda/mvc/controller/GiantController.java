@@ -6,10 +6,11 @@ import com.sda.mvc.model.Health;
 import com.sda.mvc.model.Nourishment;
 import com.sda.mvc.view.GiantView;
 
-public class GiantController {
-    private GiantModel giantModel;
-    private GiantView giantView;
+import java.util.List;
 
+public class GiantController {
+    private GiantView giantView;
+    private GiantModel giantModel;
     public GiantController(GiantModel giantModel, GiantView giantView) {
         this.giantModel = giantModel;
         this.giantView = giantView;
